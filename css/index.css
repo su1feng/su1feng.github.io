@@ -4286,7 +4286,7 @@ figure.highlight pre .javascript .function {
   content: '';
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 0px;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
