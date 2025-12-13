@@ -17,3 +17,8 @@
 #footer .footer-other{
   background-color: transparent !important;
 }
+
+#pagination {
+    width: 100%;
+    margin: auto;
+  }
