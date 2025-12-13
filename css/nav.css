@@ -22,3 +22,14 @@
     width: 100%;
     margin: auto;
   }
+
+#recent-posts .recent-post-items .recent-post-item > .recent-post-info {
+  min-height: 140px;
+}
+
+.aplayer.aplayer-fixed {
+  top: 80px;
+  bottom: auto;
+  right: 16px;
+  z-index: 9999;
+}
