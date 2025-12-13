@@ -8,3 +8,12 @@
 #nav .menus_items .menus_item:hover .menus_item_child{
   display: flex;
 }
+
+#footer{
+  background: none !important;
+  background-color: transparent !important;
+}
+
+#footer .footer-other{
+  background-color: transparent !important;
+}
