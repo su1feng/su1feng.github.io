@@ -24,31 +24,19 @@
   }
 
 /* 1. 调整图标容器 (<a> 标签) 的尺寸和形状 */
-/* 目标选择器: 侧边栏卡片中的社交图标链接 */
-#card-info .card-info-social-icons a {
-    /* 调整容器的宽度和高度，以适应更大的图标 */
-    width: 40px; 
-    height: 40px; 
-    /* 保持图标垂直居中 */
-    line-height: 40px; 
-    /* 增加图标之间的间距，使它们看起来更宽松 */
-    margin: 5px 8px; 
+/* 使用更完整的选择器: .card-info-social-icons 容器下的所有 a 标签 */
+#aside-content .card-info-social-icons a {
+    /* 尝试更大的尺寸，例如 44px */
+    width: 44px !important; 
+    height: 44px !important; 
+    line-height: 44px !important; 
+    /* 增加图标之间的间距 */
+    margin: 5px 8px !important; 
 }
 
 /* 2. 调整图标 (<i> 标签) 的字体大小 */
-/* 目标选择器: 侧边栏卡片中的图标元素 (iconfont) */
-#card-info .card-info-social-icons a i {
-    /* 设置图标字体大小，这将直接放大图标本身 */
-    font-size: 24px; 
+/* 目标选择器: .card-info-social-icons 容器下的 a 标签内的 i 标签 */
+#aside-content .card-info-social-icons a i {
+    /* 尝试更大的字体，例如 28px */
+    font-size: 28px !important; 
 }
-
-/* 如果您希望图标在鼠标悬停时保持颜色一致，可以添加以下代码 */
-#card-info .card-info-social-icons a:hover {
-    background-color: var(--theme-color); /* 使用主题色作为悬停背景色 */
-}
-
-/* 如果您希望图标的颜色在悬停时保持不变，可以取消注释以下代码 */
-/* #card-info .card-info-social-icons a:hover i {
-    color: #fff; 
-} */
-
