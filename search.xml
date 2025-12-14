@@ -24,7 +24,7 @@
 <p>期待与大家共同进步！感谢你的阅读！</p>
 ]]></content>
       <categories>
-        <category>技术随笔</category>
+        <category>技术学习</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -58,12 +58,9 @@
 ]]></content>
       <categories>
         <category>个人随笔</category>
-        <category>生活/规划</category>
       </categories>
       <tags>
         <tag>随笔</tag>
-        <tag>年度总结</tag>
-        <tag>成长</tag>
       </tags>
   </entry>
   <entry>
@@ -93,12 +90,9 @@
 ]]></content>
       <categories>
         <category>技术学习</category>
-        <category>技术分享/前端框架</category>
       </categories>
       <tags>
         <tag>Vue</tag>
-        <tag>前端</tag>
-        <tag>Composition API</tag>
       </tags>
   </entry>
   <entry>
