@@ -22,3 +22,11 @@
     width: 100%;
     margin: auto;
   }
+
+/* 针对所有社交图标链接内的图标进行统一设置 */
+#card-author .social-icon i {
+  /* 统一设置字体大小，您可以根据需要调整这个值（例如 18px, 1.1em 等） */
+  font-size: 1.2rem !important; 
+  /* 调整垂直对齐，使其在视觉上保持一致 */
+  vertical-align: -0.1em;
+}  
