@@ -64,6 +64,17 @@
       </tags>
   </entry>
   <entry>
+    <title>LeetCode 刷题记录 - 动态规划解法（以背包问题为例）</title>
+    <url>/2025/12/14/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📝-刷题记录："><a href="#📝-刷题记录：" class="headerlink" title="📝 刷题记录："></a>📝 刷题记录：</h1>]]></content>
+      <categories>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>LeetCode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vue 3 Composition API 深度探索：告别 Mixins，拥抱 Setup</title>
     <url>/2025/12/14/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📚-技术学习：Vue-3-Composition-API-深度解析"><a href="#📚-技术学习：Vue-3-Composition-API-深度解析" class="headerlink" title="📚 技术学习：Vue 3 Composition API 深度解析"></a>📚 技术学习：Vue 3 Composition API 深度解析</h1><h2 id="❓-一、为什么需要-Composition-API？"><a href="#❓-一、为什么需要-Composition-API？" class="headerlink" title="❓ 一、为什么需要 Composition API？"></a>❓ 一、为什么需要 Composition API？</h2><ul>
@@ -93,17 +104,6 @@
       </categories>
       <tags>
         <tag>Vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode 刷题记录 - 动态规划解法（以背包问题为例）</title>
-    <url>/2025/12/14/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📝-刷题记录："><a href="#📝-刷题记录：" class="headerlink" title="📝 刷题记录："></a>📝 刷题记录：</h1>]]></content>
-      <categories>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>LeetCode</tag>
       </tags>
   </entry>
 </search>
