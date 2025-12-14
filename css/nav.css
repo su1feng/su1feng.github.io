@@ -23,20 +23,20 @@
     margin: auto;
   }
 
-/* 1. 调整图标容器 (<a> 标签) 的尺寸和形状 */
-/* 使用更完整的选择器: .card-info-social-icons 容器下的所有 a 标签 */
-#aside-content .card-info-social-icons a {
-    /* 尝试更大的尺寸，例如 44px */
-    width: 44px !important; 
-    height: 44px !important; 
-    line-height: 44px !important; 
-    /* 增加图标之间的间距 */
-    margin: 5px 8px !important; 
+
+/* 1. 放大所有社交图标的字体大小 */
+/* 这个选择器针对侧边栏（#aside-content）内，所有带有图标类（i 标签或 iconfont 类）
+   的元素，并将其字体大小强制设置为 30px。
+*/
+#aside-content .card-info-social-icons * {
+    font-size: 30px !important; /* 图标字体大小 */
 }
 
-/* 2. 调整图标 (<i> 标签) 的字体大小 */
-/* 目标选择器: .card-info-social-icons 容器下的 a 标签内的 i 标签 */
-#aside-content .card-info-social-icons a i {
-    /* 尝试更大的字体，例如 28px */
-    font-size: 28px !important; 
+/* 2. 调整图标容器 (<a> 标签) 的尺寸 */
+#aside-content .card-info-social-icons a {
+    /* 容器尺寸略大于字体大小，例如 48px */
+    width: 48px !important; 
+    height: 48px !important; 
+    line-height: 48px !important; /* 垂直居中 */
+    margin: 5px 8px !important; /* 调整间距 */
 }
