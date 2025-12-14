@@ -1,119 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>2025 年终回顾：成长与留下的遗憾</title>
-      <link href="/2025/12/15/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/"/>
-      <url>/2025/12/15/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="✍️-个人随笔：2025-年终回顾与展望"><a href="#✍️-个人随笔：2025-年终回顾与展望" class="headerlink" title="✍️ 个人随笔：2025 年终回顾与展望"></a>✍️ 个人随笔：2025 年终回顾与展望</h1><h2 id="📉-一、年度回顾：我的高光时刻与遗憾"><a href="#📉-一、年度回顾：我的高光时刻与遗憾" class="headerlink" title="📉 一、年度回顾：我的高光时刻与遗憾"></a>📉 一、年度回顾：我的高光时刻与遗憾</h2><h3 id="1-技术与学习成就"><a href="#1-技术与学习成就" class="headerlink" title="1. 技术与学习成就"></a>1. 技术与学习成就</h3><ul><li>列出今年完成的编程项目或掌握的技术栈。</li><li>提及其中最具挑战性和最有成就感的成果。</li></ul><h3 id="2-生活与兴趣爱好"><a href="#2-生活与兴趣爱好" class="headerlink" title="2. 生活与兴趣爱好"></a>2. 生活与兴趣爱好</h3><ul><li>记录几次难忘的旅行或体验。</li><li>分享在阅读、健身等非技术领域的坚持与突破。</li></ul><h2 id="🧭-二、留下的遗憾与反思"><a href="#🧭-二、留下的遗憾与反思" class="headerlink" title="🧭 二、留下的遗憾与反思"></a>🧭 二、留下的遗憾与反思</h2><ul><li>诚实地写下未能完成的目标（例如：某项技能掌握不够深入、作息不规律等）。</li><li>分析导致这些遗憾的原因，进行自我反思。</li></ul><h2 id="🎯-三、展望-2026：具体规划"><a href="#🎯-三、展望-2026：具体规划" class="headerlink" title="🎯 三、展望 2026：具体规划"></a>🎯 三、展望 2026：具体规划</h2><h3 id="1-SMART-目标设定（技术层面）"><a href="#1-SMART-目标设定（技术层面）" class="headerlink" title="1. SMART 目标设定（技术层面）"></a>1. SMART 目标设定（技术层面）</h3><ul><li><strong>S</strong>pecific：具体（例如：完成一本算法书、熟练使用某项技术）。</li><li><strong>M</strong>easurable：可衡量（例如：每天刷一题、每周写一篇技术总结）。</li></ul><h3 id="2-生活与健康目标"><a href="#2-生活与健康目标" class="headerlink" title="2. 生活与健康目标"></a>2. 生活与健康目标</h3><ul><li>例如：坚持规律运动、每月完成一本非虚构类阅读、保持充足睡眠等。</li></ul><h2 id="🎉-四、结语"><a href="#🎉-四、结语" class="headerlink" title="🎉 四、结语"></a>🎉 四、结语</h2><ul><li>用一段积极的话语，展望新的一年。</li></ul>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>🚀 欢迎来到我的博客！—— Hexo 搭建完成</title>
+    <url>/2025/12/07/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="🎉-历经千辛，终于见面！"><a href="#🎉-历经千辛，终于见面！" class="headerlink" title="🎉 历经千辛，终于见面！"></a>🎉 历经千辛，终于见面！</h2><p>大家好！欢迎来到我的全新博客。</p>
+<p>从配置 Node.js 环境、解决 <code>EPERM</code> 权限问题，到修复 YAML 缩进错误，再到搞定 GitHub 的 PAT 认证，这一路走来真是充满了挑战和成就感。这篇博客不仅仅是一个开始，更是对整个搭建过程的纪念碑！</p>
+<blockquote>
+<p><strong>技术路上的每一次报错，都是一次学习和成长的机会。</strong> 保持耐心，<code>keep going</code>！</p>
+</blockquote>
+<hr>
+<h2 id="💻-关于这个博客"><a href="#💻-关于这个博客" class="headerlink" title="💻 关于这个博客"></a>💻 关于这个博客</h2><p>这个博客是基于强大的 <strong>Hexo</strong> 静态博客框架构建的，并使用了 [你的主题名称，例如：Next 主题] 作为外观。</p>
+<p>在这里，我计划分享以下内容：</p>
+<ul>
+<li><strong>💻 编程技术与学习笔记：</strong> 记录我在 LeetCode 刷题、Web 开发、数据结构和算法学习中的心得。</li>
+<li><strong>💡 个人项目与思考：</strong> 分享我的 side projects、设计理念和解决问题的过程。</li>
+<li><strong>🧭 生活点滴与感悟：</strong> 记录一些技术之外的兴趣、读书笔记和个人感悟。</li>
+</ul>
+<h2 id="✍️-下一步计划"><a href="#✍️-下一步计划" class="headerlink" title="✍️ 下一步计划"></a>✍️ 下一步计划</h2><ol>
+<li><strong>完善主题配置：</strong> 调整主题的菜单、侧边栏、社交链接，让它更符合我的个人风格。</li>
+<li><strong>写一篇 LeetCode 题解：</strong> 将这次搭建过程中遇到的权限、认证等问题整理成一篇技术文章。</li>
+<li><strong>开始写作！</strong></li>
+</ol>
+<p>期待与大家共同进步！感谢你的阅读！</p>
+]]></content>
       <categories>
-          
-          <category> 个人随笔 </category>
-          
-          <category> 生活/规划 </category>
-          
+        <category>技术随笔</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 随笔 </tag>
-            
-            <tag> 年度总结 </tag>
-            
-            <tag> 成长 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Vue 3 Composition API 深度探索：告别 Mixins，拥抱 Setup</title>
-      <link href="/2025/12/14/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2025/12/14/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📚-技术学习：Vue-3-Composition-API-深度解析"><a href="#📚-技术学习：Vue-3-Composition-API-深度解析" class="headerlink" title="📚 技术学习：Vue 3 Composition API 深度解析"></a>📚 技术学习：Vue 3 Composition API 深度解析</h1><h2 id="❓-一、为什么需要-Composition-API？"><a href="#❓-一、为什么需要-Composition-API？" class="headerlink" title="❓ 一、为什么需要 Composition API？"></a>❓ 一、为什么需要 Composition API？</h2><ul><li><strong>Vue 2 的痛点：</strong> 描述 <code>Options API</code> 时代，特别是使用 <code>Mixins</code> 时遇到的问题（如：代码复用性差、逻辑分散、难以维护等）。</li><li><strong>核心目标：</strong> Composition API 如何实现逻辑组织和代码复用上的改进（按功能组织代码）。</li></ul><h2 id="🔧-二、Composition-API-的核心概念"><a href="#🔧-二、Composition-API-的核心概念" class="headerlink" title="🔧 二、Composition API 的核心概念"></a>🔧 二、Composition API 的核心概念</h2><h3 id="1-setup-函数"><a href="#1-setup-函数" class="headerlink" title="1. setup() 函数"></a>1. <code>setup()</code> 函数</h3><ul><li><code>setup()</code> 的执行时机和作用。</li><li>如何在 <code>setup()</code> 中使用响应式 API。</li></ul><h3 id="2-响应式-API"><a href="#2-响应式-API" class="headerlink" title="2. 响应式 API"></a>2. 响应式 API</h3><ul><li><code>ref()</code>：用于基本类型数据的响应式包装。</li><li><code>reactive()</code>：用于对象类型数据的响应式包装。</li><li><code>toRefs()</code>：解构 <code>reactive</code> 对象以保持响应式。</li></ul><h2 id="🚀-三、实际应用与对比"><a href="#🚀-三、实际应用与对比" class="headerlink" title="🚀 三、实际应用与对比"></a>🚀 三、实际应用与对比</h2><ul><li><strong>实战示例：</strong> 使用 Composition API 实现一个计数器或表单验证逻辑。</li><li><strong>与 Options API 对比：</strong> 通过代码示例，直观对比两种 API 在代码结构上的差异。</li></ul><h2 id="💡-四、总结与未来展望"><a href="#💡-四、总结与未来展望" class="headerlink" title="💡 四、总结与未来展望"></a>💡 四、总结与未来展望</h2><ul><li>Composition API 带来的优势（更好的类型推导、更清晰的逻辑等）。</li><li>它对大型项目维护的价值</li></ul>]]></content>
-      
-      
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode 刷题记录 - 动态规划解法（以背包问题为例）</title>
+    <url>/2025/12/14/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📝-刷题记录："><a href="#📝-刷题记录：" class="headerlink" title="📝 刷题记录："></a>📝 刷题记录：</h1>]]></content>
       <categories>
-          
-          <category> 技术学习 </category>
-          
-          <category> 技术分享/前端框架 </category>
-          
+        <category>刷题记录</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Vue </tag>
-            
-            <tag> 前端 </tag>
-            
-            <tag> Composition API </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>LeetCode 刷题记录 - 动态规划解法（以背包问题为例）</title>
-      <link href="/2025/12/14/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-      <url>/2025/12/14/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📝-刷题记录："><a href="#📝-刷题记录：" class="headerlink" title="📝 刷题记录："></a>📝 刷题记录：</h1>]]></content>
-      
-      
+      <tags>
+        <tag>LeetCode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025 年终回顾：成长与留下的遗憾</title>
+    <url>/2025/12/15/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="✍️-个人随笔：2025-年终回顾与展望"><a href="#✍️-个人随笔：2025-年终回顾与展望" class="headerlink" title="✍️ 个人随笔：2025 年终回顾与展望"></a>✍️ 个人随笔：2025 年终回顾与展望</h1><h2 id="📉-一、年度回顾：我的高光时刻与遗憾"><a href="#📉-一、年度回顾：我的高光时刻与遗憾" class="headerlink" title="📉 一、年度回顾：我的高光时刻与遗憾"></a>📉 一、年度回顾：我的高光时刻与遗憾</h2><h3 id="1-技术与学习成就"><a href="#1-技术与学习成就" class="headerlink" title="1. 技术与学习成就"></a>1. 技术与学习成就</h3><ul>
+<li>列出今年完成的编程项目或掌握的技术栈。</li>
+<li>提及其中最具挑战性和最有成就感的成果。</li>
+</ul>
+<h3 id="2-生活与兴趣爱好"><a href="#2-生活与兴趣爱好" class="headerlink" title="2. 生活与兴趣爱好"></a>2. 生活与兴趣爱好</h3><ul>
+<li>记录几次难忘的旅行或体验。</li>
+<li>分享在阅读、健身等非技术领域的坚持与突破。</li>
+</ul>
+<h2 id="🧭-二、留下的遗憾与反思"><a href="#🧭-二、留下的遗憾与反思" class="headerlink" title="🧭 二、留下的遗憾与反思"></a>🧭 二、留下的遗憾与反思</h2><ul>
+<li>诚实地写下未能完成的目标（例如：某项技能掌握不够深入、作息不规律等）。</li>
+<li>分析导致这些遗憾的原因，进行自我反思。</li>
+</ul>
+<h2 id="🎯-三、展望-2026：具体规划"><a href="#🎯-三、展望-2026：具体规划" class="headerlink" title="🎯 三、展望 2026：具体规划"></a>🎯 三、展望 2026：具体规划</h2><h3 id="1-SMART-目标设定（技术层面）"><a href="#1-SMART-目标设定（技术层面）" class="headerlink" title="1. SMART 目标设定（技术层面）"></a>1. SMART 目标设定（技术层面）</h3><ul>
+<li><strong>S</strong>pecific：具体（例如：完成一本算法书、熟练使用某项技术）。</li>
+<li><strong>M</strong>easurable：可衡量（例如：每天刷一题、每周写一篇技术总结）。</li>
+</ul>
+<h3 id="2-生活与健康目标"><a href="#2-生活与健康目标" class="headerlink" title="2. 生活与健康目标"></a>2. 生活与健康目标</h3><ul>
+<li>例如：坚持规律运动、每月完成一本非虚构类阅读、保持充足睡眠等。</li>
+</ul>
+<h2 id="🎉-四、结语"><a href="#🎉-四、结语" class="headerlink" title="🎉 四、结语"></a>🎉 四、结语</h2><ul>
+<li>用一段积极的话语，展望新的一年。</li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> 刷题记录 </category>
-          
+        <category>个人随笔</category>
+        <category>生活/规划</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> LeetCode </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>🚀 欢迎来到我的博客！—— Hexo 搭建完成</title>
-      <link href="/2025/12/07/hello-world/"/>
-      <url>/2025/12/07/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="🎉-历经千辛，终于见面！"><a href="#🎉-历经千辛，终于见面！" class="headerlink" title="🎉 历经千辛，终于见面！"></a>🎉 历经千辛，终于见面！</h2><p>大家好！欢迎来到我的全新博客。</p><p>从配置 Node.js 环境、解决 <code>EPERM</code> 权限问题，到修复 YAML 缩进错误，再到搞定 GitHub 的 PAT 认证，这一路走来真是充满了挑战和成就感。这篇博客不仅仅是一个开始，更是对整个搭建过程的纪念碑！</p><blockquote><p><strong>技术路上的每一次报错，都是一次学习和成长的机会。</strong> 保持耐心，<code>keep going</code>！</p></blockquote><hr><h2 id="💻-关于这个博客"><a href="#💻-关于这个博客" class="headerlink" title="💻 关于这个博客"></a>💻 关于这个博客</h2><p>这个博客是基于强大的 <strong>Hexo</strong> 静态博客框架构建的，并使用了 [你的主题名称，例如：Next 主题] 作为外观。</p><p>在这里，我计划分享以下内容：</p><ul><li><strong>💻 编程技术与学习笔记：</strong> 记录我在 LeetCode 刷题、Web 开发、数据结构和算法学习中的心得。</li><li><strong>💡 个人项目与思考：</strong> 分享我的 side projects、设计理念和解决问题的过程。</li><li><strong>🧭 生活点滴与感悟：</strong> 记录一些技术之外的兴趣、读书笔记和个人感悟。</li></ul><h2 id="✍️-下一步计划"><a href="#✍️-下一步计划" class="headerlink" title="✍️ 下一步计划"></a>✍️ 下一步计划</h2><ol><li><strong>完善主题配置：</strong> 调整主题的菜单、侧边栏、社交链接，让它更符合我的个人风格。</li><li><strong>写一篇 LeetCode 题解：</strong> 将这次搭建过程中遇到的权限、认证等问题整理成一篇技术文章。</li><li><strong>开始写作！</strong></li></ol><p>期待与大家共同进步！感谢你的阅读！</p>]]></content>
-      
-      
+      <tags>
+        <tag>随笔</tag>
+        <tag>年度总结</tag>
+        <tag>成长</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue 3 Composition API 深度探索：告别 Mixins，拥抱 Setup</title>
+    <url>/2025/12/14/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="📚-技术学习：Vue-3-Composition-API-深度解析"><a href="#📚-技术学习：Vue-3-Composition-API-深度解析" class="headerlink" title="📚 技术学习：Vue 3 Composition API 深度解析"></a>📚 技术学习：Vue 3 Composition API 深度解析</h1><h2 id="❓-一、为什么需要-Composition-API？"><a href="#❓-一、为什么需要-Composition-API？" class="headerlink" title="❓ 一、为什么需要 Composition API？"></a>❓ 一、为什么需要 Composition API？</h2><ul>
+<li><strong>Vue 2 的痛点：</strong> 描述 <code>Options API</code> 时代，特别是使用 <code>Mixins</code> 时遇到的问题（如：代码复用性差、逻辑分散、难以维护等）。</li>
+<li><strong>核心目标：</strong> Composition API 如何实现逻辑组织和代码复用上的改进（按功能组织代码）。</li>
+</ul>
+<h2 id="🔧-二、Composition-API-的核心概念"><a href="#🔧-二、Composition-API-的核心概念" class="headerlink" title="🔧 二、Composition API 的核心概念"></a>🔧 二、Composition API 的核心概念</h2><h3 id="1-setup-函数"><a href="#1-setup-函数" class="headerlink" title="1. setup() 函数"></a>1. <code>setup()</code> 函数</h3><ul>
+<li><code>setup()</code> 的执行时机和作用。</li>
+<li>如何在 <code>setup()</code> 中使用响应式 API。</li>
+</ul>
+<h3 id="2-响应式-API"><a href="#2-响应式-API" class="headerlink" title="2. 响应式 API"></a>2. 响应式 API</h3><ul>
+<li><code>ref()</code>：用于基本类型数据的响应式包装。</li>
+<li><code>reactive()</code>：用于对象类型数据的响应式包装。</li>
+<li><code>toRefs()</code>：解构 <code>reactive</code> 对象以保持响应式。</li>
+</ul>
+<h2 id="🚀-三、实际应用与对比"><a href="#🚀-三、实际应用与对比" class="headerlink" title="🚀 三、实际应用与对比"></a>🚀 三、实际应用与对比</h2><ul>
+<li><strong>实战示例：</strong> 使用 Composition API 实现一个计数器或表单验证逻辑。</li>
+<li><strong>与 Options API 对比：</strong> 通过代码示例，直观对比两种 API 在代码结构上的差异。</li>
+</ul>
+<h2 id="💡-四、总结与未来展望"><a href="#💡-四、总结与未来展望" class="headerlink" title="💡 四、总结与未来展望"></a>💡 四、总结与未来展望</h2><ul>
+<li>Composition API 带来的优势（更好的类型推导、更清晰的逻辑等）。</li>
+<li>它对大型项目维护的价值</li>
+</ul>
+]]></content>
       <categories>
-          
-          <category> 技术随笔 </category>
-          
+        <category>技术学习</category>
+        <category>技术分享/前端框架</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Vue</tag>
+        <tag>前端</tag>
+        <tag>Composition API</tag>
+      </tags>
+  </entry>
 </search>
