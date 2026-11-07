@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/generate-og.mjs",
     "start": "next start"
   },
   "dependencies": {
@@ -17,11 +18,13 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "postcss": "^8.5.0",
+    "satori": "^0.63.2",
     "tailwindcss": "^4.1.0",
     "typescript": "^5.7.0"
   }

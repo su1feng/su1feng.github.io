@@ -11,6 +11,22 @@ export interface PostMeta {
   description?: string
 }
 
+// gray-matter 底层 js-yaml 会把 YAML 日期解析成 Date 对象，统一转回 ISO 字符串
+function toPostMeta(slug: string, data: Record<string, unknown>): PostMeta {
+  const rawDate = data.date
+  const date =
+    rawDate instanceof Date
+      ? rawDate.toISOString().slice(0, 10)
+      : String(rawDate ?? '').slice(0, 10)
+
+  return {
+    slug,
+    title: String(data.title ?? slug),
+    date,
+    description: data.description ? String(data.description) : undefined,
+  }
+}
+
 export function getAllPosts(): PostMeta[] {
   return fs
     .readdirSync(postsDir)
@@ -20,12 +36,7 @@ export function getAllPosts(): PostMeta[] {
       const { data } = matter(
         fs.readFileSync(path.join(postsDir, f), 'utf8'),
       )
-      return {
-        slug,
-        title: String(data.title ?? slug),
-        date: String(data.date ?? '').slice(0, 10),
-        description: data.description ? String(data.description) : undefined,
-      }
+      return toPostMeta(slug, data)
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 }
@@ -34,13 +45,5 @@ export function getPost(slug: string): { meta: PostMeta; content: string } {
   const { data, content } = matter(
     fs.readFileSync(path.join(postsDir, `${slug}.mdx`), 'utf8'),
   )
-  return {
-    meta: {
-      slug,
-      title: String(data.title ?? slug),
-      date: String(data.date ?? '').slice(0, 10),
-      description: data.description ? String(data.description) : undefined,
-    },
-    content,
-  }
+  return { meta: toPostMeta(slug, data), content }
 }
