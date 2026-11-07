@@ -1,38 +1,22 @@
-import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
+import { ThoughtList } from '@/app/components/thought-list'
 
 export const metadata = {
   title: 'thoughts',
 }
 
-export default function BlogPage() {
+export default function ThoughtsPage() {
   const posts = getAllPosts()
+  const categories = [
+    ...new Set(posts.map((p) => p.category).filter(Boolean)),
+  ] as string[]
 
   return (
     <>
       <h1 className="mb-7 font-semibold text-[var(--fg-strong)] text-balance">
-        blog
+        thoughts
       </h1>
-      <ul className="space-y-3">
-        {posts.map(({ slug, title, date, description }) => (
-          <li key={slug} className="flex items-baseline gap-4">
-            <time className="w-24 shrink-0 font-mono text-[13px] text-[var(--fg-muted)]">
-              {date}
-            </time>
-            <div>
-              <Link
-                href={`/thoughts/${slug}`}
-                className="underline-offset-2 hover:underline"
-              >
-                {title}
-              </Link>
-              {description && (
-                <p className="mt-0.5 text-sm text-[var(--fg-muted)]">{description}</p>
-              )}
-            </div>
-          </li>
-        ))}
-      </ul>
+      <ThoughtList posts={posts} categories={categories} />
     </>
   )
 }

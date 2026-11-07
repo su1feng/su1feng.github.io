@@ -9,6 +9,7 @@ export interface PostMeta {
   title: string
   date: string
   description?: string
+  category?: string
 }
 
 // gray-matter 底层 js-yaml 会把 YAML 日期解析成 Date 对象，统一转回 ISO 字符串
@@ -24,6 +25,7 @@ function toPostMeta(slug: string, data: Record<string, unknown>): PostMeta {
     title: String(data.title ?? slug),
     date,
     description: data.description ? String(data.description) : undefined,
+    category: data.category ? String(data.category) : undefined,
   }
 }
 
