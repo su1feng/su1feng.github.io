@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { Nav } from './components/nav'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -17,33 +18,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <body>
-        <div className="mx-auto max-w-2xl px-6">
-          <header className="flex items-center justify-between py-8 text-[15px]">
-            <Link
-              href="/"
-              className="font-semibold tracking-tight hover:opacity-60"
-            >
-              su1feng
-            </Link>
-            <nav className="flex items-center gap-5 text-sm text-zinc-500 dark:text-zinc-400">
-              <Link href="/" className="hover:text-zinc-900 dark:hover:text-zinc-100">
-                文章
-              </Link>
-              <a
-                href="https://github.com/su1feng"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-zinc-900 dark:hover:text-zinc-100"
-              >
-                GitHub
-              </a>
-            </nav>
-          </header>
-          <main className="pb-20">{children}</main>
-          <footer className="border-t border-zinc-200 py-8 text-[13px] text-zinc-400 dark:border-zinc-800 dark:text-zinc-600">
-            © {new Date().getFullYear()} su1feng · Next.js + MDX + Shiki
-          </footer>
+      <body className="p-6 sm:p-10 md:p-14 antialiased">
+        <div className="flex flex-col md:flex-row">
+          {/* 左侧竖排导航（移动端为顶部横排） */}
+          <Nav />
+
+          {/* 内容列：flex-1 靠左，max-w-2xl —— shud.in 同款左对齐布局 */}
+          <main className="relative flex-1 max-w-2xl">
+            {/* nav 与内容之间的分隔线：桌面为竖线，移动端为横线 */}
+            <div
+              aria-hidden
+              className="absolute left-0 top-0 h-px w-full md:h-full md:w-px bg-[var(--border)] opacity-50"
+            />
+
+            <article className="pl-0 pt-6 md:pt-0 md:pl-6 lg:pl-10 xl:pl-14">
+              {children}
+            </article>
+          </main>
         </div>
       </body>
     </html>

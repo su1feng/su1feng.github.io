@@ -1,7 +1,36 @@
 @import "tailwindcss";
 
+/* ---- 瑠璃紺（rurikon）色板，参考 shud.in 的藏青基调 ---- */
+
+@theme {
+  --color-rurikon-200: #d7dee9;
+  --color-rurikon-300: #b8c4d6;
+  --color-rurikon-400: #8794ab;
+  --color-rurikon-500: #5f6c85;
+  --color-rurikon-600: #414e68;
+  --color-rurikon-800: #2b3450;
+  --color-rurikon-border: #e4e8ef;
+}
+
 :root {
   color-scheme: light dark;
+  --bg: #ffffff;
+  --fg-strong: #2b3450;
+  --fg: #5f6c85;
+  --fg-muted: #8794ab;
+  --border: #e4e8ef;
+  --code-bg: #f5f7fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #10131b;
+    --fg-strong: #c7d0e0;
+    --fg: #94a0b8;
+    --fg-muted: #5b6478;
+    --border: #232838;
+    --code-bg: #1a1f2c;
+  }
 }
 
 html {
@@ -9,27 +38,20 @@ html {
 }
 
 body {
-  background: #ffffff;
-  color: #27272a;
+  background: var(--bg);
+  color: var(--fg);
   -webkit-font-smoothing: antialiased;
   font-family:
-    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, Roboto,
     "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #09090b;
-    color: #e4e4e7;
-  }
-}
-
 ::selection {
-  background: rgba(39, 39, 42, 0.12);
+  background: rgba(65, 78, 104, 0.15);
 }
 
-/* ---- 文章排版（不引 typography 插件，保持零多余依赖） ---- */
+/* ---- 文章排版 ---- */
 
 .prose {
   font-size: 15.5px;
@@ -45,29 +67,25 @@ body {
   font-size: 1.3em;
   font-weight: 600;
   letter-spacing: -0.01em;
+  color: var(--fg-strong);
 }
 
 .prose h3 {
   margin: 1.8em 0 0.6em;
   font-size: 1.1em;
   font-weight: 600;
+  color: var(--fg-strong);
 }
 
 .prose a {
   color: inherit;
   text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: #a1a1aa;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--fg-muted);
 }
 
 .prose a:hover {
-  text-decoration-color: #27272a;
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose a:hover {
-    text-decoration-color: #e4e4e7;
-  }
+  text-decoration-color: var(--fg-strong);
 }
 
 .prose ul {
@@ -89,21 +107,15 @@ body {
 .prose blockquote {
   margin: 1.3em 0;
   padding-left: 1em;
-  border-left: 3px solid #d4d4d8;
-  color: #71717a;
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose blockquote {
-    border-left-color: #3f3f46;
-    color: #a1a1aa;
-  }
+  border-left: 3px solid var(--border);
+  color: var(--fg-muted);
 }
 
 .prose code {
-  font-family: ui-monospace, "SF Mono", SFMono-Regular, Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", SFMono-Regular, Consolas, "JetBrains Mono",
+    monospace;
   font-size: 0.86em;
-  background: #f4f4f5;
+  background: var(--code-bg);
   padding: 0.15em 0.4em;
   border-radius: 5px;
 }
@@ -126,13 +138,7 @@ body {
 .prose hr {
   margin: 2.5em 0;
   border: 0;
-  border-top: 1px solid #e4e4e7;
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose hr {
-    border-top-color: #27272a;
-  }
+  border-top: 1px solid var(--border);
 }
 
 .prose img {
