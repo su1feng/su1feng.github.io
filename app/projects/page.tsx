@@ -6,10 +6,10 @@ export const metadata = {
 
 const projects = [
   {
-    name: 'su1feng.github.io',
+    name: 'skill',
     description:
-      '你正在看的这个站点。Next.js 静态导出 + MDX + Shiki 双主题高亮，技术栈复刻自 shud.in，零客户端运行时。',
-    href: 'https://github.com/su1feng/su1feng.github.io',
+      '个人自用的 Agent Skills 收集：按作者（来源仓库）分目录归档的 AI Agent 技能集，含 tw93/Waza、mattpocock、pstack 等来源，MIT 协议。',
+    href: 'https://github.com/su1feng/skill',
   },
   {
     name: 'Coming soon',
