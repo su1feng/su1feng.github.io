@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <body className="p-6 sm:p-10 md:p-14 antialiased">
+      <body className="p-6 sm:p-10 md:p-14 text-sm leading-6 sm:text-[15px] sm:leading-7 md:text-base md:leading-7 antialiased">
         {/* 移动端顶部渐隐遮罩（shud.in 同款细节） */}
         <div
           aria-hidden

@@ -5,7 +5,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <h1 className="mb-7 text-[15px] font-semibold text-[var(--fg-strong)] text-balance">
+      <h1 className="mb-7 font-semibold text-[var(--fg-strong)] text-balance">
         about
       </h1>
 

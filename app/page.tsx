@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1 className="mb-7 text-[15px] font-semibold text-[var(--fg-strong)] text-balance">
+      <h1 className="mb-7 font-semibold text-[var(--fg-strong)] text-balance">
         su1feng
       </h1>
 

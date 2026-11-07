@@ -55,7 +55,7 @@ export default async function PostPage({ params }: Props) {
   return (
     <article>
       <header className="mb-10">
-        <h1 className="text-2xl font-semibold tracking-tight">{meta.title}</h1>
+        <h1 className="font-semibold tracking-tight">{meta.title}</h1>
         <p className="mt-2 font-mono text-[13px] text-zinc-400 dark:text-zinc-600">
           {meta.date}
         </p>

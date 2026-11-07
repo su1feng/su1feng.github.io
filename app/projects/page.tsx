@@ -21,7 +21,7 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <>
-      <h1 className="mb-7 text-[15px] font-semibold text-[var(--fg-strong)] text-balance">
+      <h1 className="mb-7 font-semibold text-[var(--fg-strong)] text-balance">
         projects
       </h1>
       <ul className="space-y-6">
