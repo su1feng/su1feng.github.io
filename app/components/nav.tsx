@@ -14,7 +14,10 @@ export function Nav() {
   const pathname = usePathname()
 
   return (
-    <nav className="w-full md:w-16 md:mr-6 lg:mr-10 xl:mr-14 shrink-0">
+    <nav
+      className="w-full font-serif italic md:w-16 md:mr-6 lg:mr-10 xl:mr-14 shrink-0"
+      style={{ letterSpacing: '-0.096px' }}
+    >
       <ul className="mb-6 flex gap-2 justify-end lowercase md:mb-0 md:block md:sticky md:top-14 md:text-right">
         {items.map(({ href, label }) => {
           const active =
