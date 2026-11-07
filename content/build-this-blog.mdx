@@ -1,0 +1,96 @@
+---
+title: 这个博客是怎么搭的
+date: 2026-11-07
+description: 复刻 shud.in 技术栈的完整笔记：Next.js 静态导出、MDX、Shiki 双主题高亮、Tailwind v4。
+---
+
+这篇文章记录本站的技术方案，也顺便当作 Shiki 高亮效果的「验收现场」。
+
+## 核心依赖只有六个
+
+```json
+{
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@mdx-js/mdx": "^3.1.0",
+    "@shikijs/rehype": "^3.7.0",
+    "gray-matter": "^4.0.3"
+  }
+}
+```
+
+没有 Nextra、没有 contentlayer、没有一整条 remark/rehype 插件链——每颗螺丝都认识，升级就是一行 `pnpm up`。
+
+## 静态导出
+
+GitHub Pages 只能托管静态文件，所以 `next.config.ts` 里一行开启完整导出：
+
+```ts
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
+  output: 'export',
+  images: { unoptimized: true },
+}
+
+export default nextConfig
+```
+
+构建产物在 `out/` 目录，push 之后由 GitHub Actions 自动发布。
+
+## 在 RSC 里编译 MDX
+
+文章是 `content/` 下的 `.mdx` 文件，读取时用 `gray-matter` 拆出 frontmatter，正文交给 `@mdx-js/mdx` 的 `evaluate` 在 React Server Component 里编译，同时挂上 Shiki 的 rehype 插件：
+
+```ts
+const { default: MDXContent } = await evaluate(content, {
+  ...runtime,
+  rehypePlugins: [
+    [rehypeShiki, {
+      themes: { light: 'github-light', dark: 'github-dark' }
+    }],
+  ],
+})
+```
+
+浏览器拿到的是**已经渲染好的 HTML**——文章页的客户端 JS 约等于零，这就是 shud.in 秒开的秘密。
+
+## 双主题代码高亮
+
+Shiki 在构建期输出两套配色（`--shiki-light` / `--shiki-dark` 两组 CSS 变量），暗色模式靠一段纯 CSS 切换，不需要任何 JS：
+
+```css
+@media (prefers-color-scheme: dark) {
+  .prose pre, .prose pre span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
+}
+```
+
+## 写新文章的流程
+
+```bash
+# 1. 在 content/ 下新建一个 .mdx 文件
+code content/my-post.mdx
+
+# 2. 本地预览
+pnpm dev
+
+# 3. push 即发布（GitHub Actions 自动构建部署）
+git push
+```
+
+frontmatter 只需要三个字段：
+
+```yaml
+---
+title: 文章标题
+date: 2026-11-07
+description: 一句话摘要（可选）
+---
+```
+
+就这些。整个站没有数据库、没有评论服务的强依赖、没有服务端——纯静态，爱怎么折腾怎么折腾。
