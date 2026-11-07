@@ -48,14 +48,7 @@ export default function HomePage() {
         >
           GitHub
         </a>{' '}
-        上找到我，或者在{' '}
-        <Link
-          href="/guestbook"
-          className="underline underline-offset-2 decoration-[var(--fg-muted)] hover:decoration-[var(--fg-strong)]"
-        >
-          guestbook
-        </Link>{' '}
-        留言。
+        上找到我。
       </p>
     </>
   )

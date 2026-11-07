@@ -7,7 +7,6 @@ const items = [
   { href: '/', label: 'about' },
   { href: '/thoughts', label: 'thoughts' },
   { href: '/projects', label: 'projects' },
-  { href: '/guestbook', label: 'guestbook' },
 ]
 
 export function Nav() {
