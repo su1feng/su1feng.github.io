@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import { Nav } from './components/nav'
 import { FadeIn } from './components/fade-in'
+// 字体：与 shud.in 同款三件套（拉丁部分自托管，中文走系统栈）
+import '@fontsource-variable/inter'
+import '@fontsource/iosevka/400.css'
+import '@fontsource/iosevka/700.css'
+import '@fontsource-variable/lora/wght-italic.css'
 import './globals.css'
 
 export const metadata: Metadata = {

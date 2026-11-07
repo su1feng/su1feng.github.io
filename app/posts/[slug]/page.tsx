@@ -2,6 +2,9 @@ import { notFound } from 'next/navigation'
 import { evaluate } from '@mdx-js/mdx'
 import * as runtime from 'react/jsx-runtime'
 import rehypeShiki from '@shikijs/rehype'
+import remarkMath from 'remark-math'
+import rehypeKatex from 'rehype-katex'
+import 'katex/dist/katex.min.css'
 import { getAllPosts, getPost } from '@/lib/posts'
 
 type Props = {
@@ -42,8 +45,10 @@ export default async function PostPage({ params }: Props) {
   // Shiki 在构建期完成代码高亮，浏览器收到的是纯 HTML，零运行时 JS
   const { default: MDXContent } = await evaluate(content, {
     ...runtime,
+    remarkPlugins: [remarkMath],
     rehypePlugins: [
       [rehypeShiki, { themes: { light: 'github-light', dark: 'github-dark' } }],
+      rehypeKatex,
     ],
   })
 
