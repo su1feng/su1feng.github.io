@@ -175,6 +175,12 @@ importers:
       '@fontsource/iosevka':
         specifier: ^5.3.0
         version: 5.3.0
+      '@fontsource/noto-sans-sc':
+        specifier: ^5.3.1
+        version: 5.3.1
+      '@fontsource/noto-serif-sc':
+        specifier: ^5.3.1
+        version: 5.3.1
       '@mdx-js/mdx':
         specifier: ^3.1.0
         version: 3.1.1
@@ -248,6 +254,12 @@ packages:
 
   '@fontsource/iosevka@5.3.0':
     resolution: {integrity: sha512-RcG0v/65e4PTuThR/d7n9jj6PLlex7YUGaLa4ZpL+NnqArWQmD8Z+6gYBTxPMVWxYMRcEw6OF4rdt8XisnC5zA==}
+
+  '@fontsource/noto-sans-sc@5.3.1':
+    resolution: {integrity: sha512-YxZ/VWAWo9FWzH08Q6fGTzIW6vYNP2TMhUFCnfhlimbhdXnWrxJLrzX3KWt2FKnV0s8XiM5vjpGHQiyFRlTj0w==}
+
+  '@fontsource/noto-serif-sc@5.3.1':
+    resolution: {integrity: sha512-nIK2HyNGcUi2TGwIfrk2MItkh0O3Y5+TI8iPfPSzoNY6uyXYfQ9qqch8czk3aa1VhV4EU52uwCYCe1UDKJELpg==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -1479,6 +1491,10 @@ snapshots:
   '@fontsource-variable/lora@5.3.0': {}
 
   '@fontsource/iosevka@5.3.0': {}
+
+  '@fontsource/noto-sans-sc@5.3.1': {}
+
+  '@fontsource/noto-serif-sc@5.3.1': {}
 
   '@img/colour@1.1.0':
     optional: true
