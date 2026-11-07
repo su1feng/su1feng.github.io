@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Nav } from './components/nav'
 import { FadeIn } from './components/fade-in'
 // 字体：与 shud.in 同款三件套 + 中文 webfont（core/ext 同思路：拉丁走 Inter/Iosevka/Lora，中文走思源黑/宋分片按需加载）
@@ -25,6 +25,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
+}
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#fcfcfc' },
+    { media: '(prefers-color-scheme: dark)', color: '#10131b' },
+  ],
 }
 
 export default function RootLayout({

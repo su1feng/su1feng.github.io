@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: Props) {
     openGraph: {
       title: post.title,
       description: post.description,
-      images: [`/posts/${slug}/opengraph-image.png`],
+      images: [`/thoughts/${slug}/opengraph-image.png`],
     },
     twitter: {
       card: 'summary_large_image' as const,
-      images: [`/posts/${slug}/opengraph-image.png`],
+      images: [`/thoughts/${slug}/opengraph-image.png`],
     },
   }
 }

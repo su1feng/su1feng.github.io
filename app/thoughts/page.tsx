@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getAllPosts } from '@/lib/posts'
 
 export const metadata = {
-  title: 'blog',
+  title: 'thoughts',
 }
 
 export default function BlogPage() {
@@ -21,7 +21,7 @@ export default function BlogPage() {
             </time>
             <div>
               <Link
-                href={`/posts/${slug}`}
+                href={`/thoughts/${slug}`}
                 className="underline-offset-2 hover:underline"
               >
                 {title}

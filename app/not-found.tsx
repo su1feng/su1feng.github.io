@@ -2,15 +2,19 @@ import Link from 'next/link'
 
 export default function NotFound() {
   return (
-    <div className="py-24 text-center">
-      <p className="text-4xl font-semibold tracking-tight">404</p>
-      <p className="mt-3 text-zinc-500 dark:text-zinc-400">这一页不存在</p>
-      <Link
-        href="/"
-        className="mt-6 inline-block text-sm underline underline-offset-4"
-      >
-        回首页
-      </Link>
-    </div>
+    <>
+      <h1 className="mb-7 font-semibold text-[var(--fg-strong)] text-balance">
+        404
+      </h1>
+      <p className="mt-7 leading-7">你访问的页面不存在。</p>
+      <p className="mt-7 leading-7">
+        <Link
+          href="/"
+          className="underline underline-offset-2 decoration-[var(--fg-muted)] hover:decoration-[var(--fg-strong)]"
+        >
+          回首页
+        </Link>
+      </p>
+    </>
   )
 }

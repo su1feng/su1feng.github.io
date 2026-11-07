@@ -1,6 +1,6 @@
 /**
  * 构建后生成 OG 分享卡片（postbuild 钩子执行）：
- * out/opengraph-image.png + out/posts/<slug>/opengraph-image.png
+ * out/opengraph-image.png + out/thoughts/<slug>/opengraph-image.png
  *
  * 为什么用脚本而不是 Next 的 opengraph-image 路由约定：
  * Next 16.4.5 静态导出下动态段 route handler 的 params 不会传入（产物 slug 为 "-"），
@@ -130,14 +130,14 @@ await render(
 
 // 文章卡
 for (const p of posts) {
-  mkdirSync(path.join(outDir, 'posts', p.slug), { recursive: true })
+  mkdirSync(path.join(outDir, 'thoughts', p.slug), { recursive: true })
   await render(
     frame(
       'su1feng.github.io',
       p.title,
       p.date,
     ),
-    path.join(outDir, 'posts', p.slug, 'opengraph-image.png'),
+    path.join(outDir, 'thoughts', p.slug, 'opengraph-image.png'),
   )
 }
 
